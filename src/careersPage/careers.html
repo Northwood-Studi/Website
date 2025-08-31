@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers - Northwood</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="careers.css">
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <div class="logo">Northwood</div>
+      <nav>
+        <ul>
+          <li><a href="../mainPage/index.html">Home</a></li>
+          <li><a href="../aboutPage/about.html">About</a></li>
+          <li><a href="../ServicesPage/Services.html">Services</a></li>
+          <li><a href="../careersPage/careers.html">Careers</a></li>
+          <li><a href="../ComingSoon/Comingsoon.html">Partnerships</a></li>
+          <li><a href="../ComingSoon/Comingsoon.html">Forums</a></li>
+          <li><a href="../ComingSoon/Comingsoon.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text animate fade-left">
+        <h1>Join Northwood</h1>
+        <p>We’re always looking for talented developers to help build amazing Roblox projects. Find your next opportunity below!</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Job Listings -->
+<section class="jobs">
+  <h2 class="animate fade-up">Join Us Now</h2>
+  <div class="job-cards">
+    <div class="job-card animate float-glow">
+      <h3>Company Engineer</h3>
+      <p>Design, build, and optimize core systems for Roblox projects. Collaborate with developers to implement high-quality solutions and ensure smooth performance across all platforms.</p>
+      <a href="#application" class="btn animate-hover">Apply Now</a>
+    </div>
+    <div class="job-card animate float-glow delay-1">
+      <h3>Company Associate</h3>
+      <p>Support project development by coordinating tasks, managing workflows, and assisting teams in achieving project goals efficiently. Ideal for highly organized and proactive individuals.</p>
+      <a href="#application" class="btn animate-hover">Apply Now</a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Application Form -->
+  <section class="application" id="application">
+    <h2 class="animate fade-up">Apply Now</h2>
+    <form class="animate fade-up">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Your full name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Your email" required>
+
+      <label for="position">Position Applying For</label>
+      <select id="position" required>
+        <option value="">Select Position</option>
+        <option value="Engineer">Company Engineer</option>
+        <option value="Associate">Company Associate</option>
+      </select>
+
+      <label for="resume">Resume / Portfolio URL</label>
+      <input type="url" id="resume" placeholder="Link to your portfolio or resume">
+
+      <label for="message">Cover Letter</label>
+      <textarea id="message" placeholder="Write a short introduction..." rows="5"></textarea>
+
+      <button type="submit" class="btn animate-hover">Submit Application</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2025 Northwood. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#">Twitter</a>
+        <a href="#">Discord</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="careers.js"></script>
+</body>
+</html>
